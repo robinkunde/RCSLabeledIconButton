@@ -77,13 +77,13 @@
                             <outlet property="delegate" destination="pGg-6v-bdr" id="Y6K-Cp-Qkv"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Master" id="tQt-TN-PWz"/>
+                    <navigationItem key="navigationItem" id="tQt-TN-PWz"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Cn-md-YlS" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="459" y="64"/>
         </scene>
-        <!--Detail View Controller-->
+        <!--Detail View Controller - RCSLabeledIconButton-->
         <scene sceneID="LgA-iK-okW">
             <objects>
                 <viewController id="IkY-Bx-tEk" customClass="DetailViewController" sceneMemberID="viewController">
@@ -126,7 +126,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="WLz-jI-sc4"/>
+                    <navigationItem key="navigationItem" title="RCSLabeledIconButton" id="WLz-jI-sc4"/>
                     <connections>
                         <outlet property="button1" destination="WPc-rA-QJO" id="NhM-T7-XrT"/>
                         <outlet property="button2" destination="vum-Kf-tZy" id="b20-z7-Pdl"/>
@@ -153,27 +153,27 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ga9-Lv-azP" customClass="RCSLabeledIconButton">
                                 <rect key="frame" x="0.0" y="70" width="160" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="logo"/>
+                                <state key="normal" title="Default" image="logo"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sG1-9G-uoV" customClass="RCSLabeledIconButton">
                                 <rect key="frame" x="160" y="70" width="160" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="logo"/>
+                                <state key="normal" title="Reversed" image="logo"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nd3-Ej-rak" customClass="RCSLabeledIconButton">
                                 <rect key="frame" x="0.0" y="210" width="160" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="logo"/>
+                                <state key="normal" title="Icon Above" image="logo"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xkn-uw-jmM" customClass="RCSLabeledIconButton">
                                 <rect key="frame" x="160" y="210" width="160" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="logo"/>
+                                <state key="normal" title="Icon Below" image="logo"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Detail" id="cra-N8-TIN"/>
+                    <navigationItem key="navigationItem" title="RCSLabeledIconButton" id="cra-N8-TIN"/>
                     <connections>
                         <outlet property="button1" destination="ga9-Lv-azP" id="OES-ZI-CCL"/>
                         <outlet property="button2" destination="sG1-9G-uoV" id="QSh-Mg-cpQ"/>

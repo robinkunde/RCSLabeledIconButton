@@ -21,7 +21,27 @@ pod "RCSLabeledIconButton", "~> 1.0"
 
 Instances of RCSLabeledIconButton can be configured with two properties:
 
-- `labeledIconButtonLayoutMode`:      Layout mode. Details are documented in the RCSLabeledIconButton.h. 
+* `labeledIconButtonLayoutMode`:      Layout mode.
+
+ - `RCSLabeledIconButtonLayoutModeDefault`
+ The icon is on the left of the Label, same as UIButton, but this class allows you to customize the distance
+ between the two more easily.
+
+ - `RCSLabeledIconButtonLayoutModeReversed`
+ Opposite of default.
+
+ - `RCSLabeledIconButtonLayoutModeIconTop`
+ The icon is above the label. Both are centered horizontally individually and vertically together.
+
+ - `RCSLabeledIconButtonLayoutModeIconBottom`
+ The icon is below the label. Both are centered horizontally individually and vertically together.
+
 - `labeledIconButtonBufferMagnitude`: Distance in points between the image and label.
 
 For more information on how to use RCSLabeledIconButton, please see `Example.xcodeproj`.
+
+## Examples
+
+<p align="center" >
+  <img src="https://raw.github.com/sapheriel/RCSLabeledIconButton/assets/layoutModes.png" alt="RCSLabeledIconButton" title="RCSLabeledIconButton">
+</p>
