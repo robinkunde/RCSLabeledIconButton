@@ -43,5 +43,5 @@ For more information on how to use RCSLabeledIconButton, please see `Example.xco
 ## Examples
 
 <p align="center" >
-  <img src="https://raw.github.com/sapheriel/RCSLabeledIconButton/assets/layoutModes.png" alt="RCSLabeledIconButton" title="RCSLabeledIconButton">
+  <img src="https://raw.github.com/sapheriel/RCSLabeledIconButton/master/assets/layoutModes.png" alt="RCSLabeledIconButton" title="RCSLabeledIconButton">
 </p>
